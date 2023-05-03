@@ -23,9 +23,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 20px 10px 20px;
+    margin: 20px 20px 10px 20px;
+    /* padding: 1px; */
+    height: 30vh;
 }
 
-.name-table{
-    
+table {
+    width: 20vw;
+    height: 25vh;
+    border-collapse: collapse;
+  }
+
+td, th {
+    border: 1px solid;
+    /* padding: 1px; */
+}
+
+th{
+    background-color: white;
+
+    font-weight: bold;
 }
