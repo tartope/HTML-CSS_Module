@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+}
+
+.box-one{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1vw;
+    background-color: lightblue;
+    margin: 40px 20px 10px 20px;
+    padding: 10px 5px;
+}
+
+.box-one p{
+    margin: 1vh;
+}
+
+.box-two{
+    border: 1px solid black;
+    border-radius: 1vw;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px 10px 20px;
+}
+
+.name-table{
+    
+}
