@@ -34,13 +34,34 @@ table {
     border-collapse: collapse;
   }
 
-td, th {
-    border: 1px solid;
+table, td, th {
+    border: 1px solid lightgray;
     /* padding: 1px; */
 }
 
+
+
 th{
     background-color: white;
+    padding: 1px;
+}
 
-    font-weight: bold;
+.box-three{
+    border: 1px solid black;
+    border-radius: 1vw;
+    background-color: lemonchiffon;
+    margin: 40px 20px 10px 20px;
+    padding: 10px 5px;
+}
+
+ul.list-box{
+    list-style-type: square;
+}
+
+.box-four{
+    border: 1px solid black;
+    border-radius: 1vw;
+    background-color: lightseagreen;
+    margin: 40px 20px 10px 20px;
+    padding: 10px 5px;
 }
