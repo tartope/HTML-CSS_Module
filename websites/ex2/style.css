@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+
+.container-one{
+    background-color: white;
+    width: auto;
+    /* height: 45vh; */
+}
+
+img{
+    max-width: 5em;
+    max-height: 5em;
+}
+
+.container-two{
+    background-color: lightgray;
+    margin: 0px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: 1.5em;
+}
+
+input{
+    width: 15vw;
+    height: 5vh;
+    margin-top: 3px;
+    border-radius: 8px;
+    border-color: gray;
+}
+
+.button{
+    background-color: #0072e1;
+    color: white;
+    margin-left: 8em;
+    width: 5vw;
+}
+
+.container-three{
+    background-color: gray;
+    margin: 0px;
+    height: 50vh;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    margin-top: 0px;
+}

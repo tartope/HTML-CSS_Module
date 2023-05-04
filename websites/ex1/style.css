@@ -1,6 +1,9 @@
 body{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
     background-color: lightgray;
+    overflow-y: hidden;
 }
 
 .box-one{
@@ -55,13 +58,14 @@ th{
 }
 
 ul.list-box{
-    list-style-type: square;
+
+    /* list-style-image: url('../../images/check.png'); */
 }
 
 .box-four{
     border: 1px solid black;
     border-radius: 1vw;
     background-color: lightseagreen;
-    margin: 40px 20px 10px 20px;
+    margin: 40px 20px 0px 20px;
     padding: 10px 5px;
 }
