@@ -16,6 +16,10 @@ header {
   color: #d83519;
 }
 
+p{
+    font-size: 10px;
+}
+
 .container-bottom {
   background-color: #2941ab;
   height: 50vh;
@@ -28,22 +32,29 @@ header {
 
 h1 {
   font-size: 3em;
+  margin-bottom: 3vh;
 }
 
 button {
   border-radius: 10em;
-  width: 15vw;
+  width: 7vw;
   height: 4vh;
-  font-size: 10px;
+  font-size: 9px;
   color: white;
+  border: none;
 }
 
 .container-top > button {
   background-color: #d83519;
+  margin-bottom: 3vh;
 }
 
 .container-bottom > button {
   background-color: #1ed760;
+}
+
+h3{
+    margin-bottom: 3vh;
 }
 
 footer {
